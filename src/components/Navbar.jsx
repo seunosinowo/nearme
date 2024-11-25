@@ -28,12 +28,12 @@ const Navbar = () => {
 
             <div className='hidden w-full lg:flex justify-end items-center me-7 px-5 uppercase text-[0.93rem]'>
               <ul className='text-black space-x-6 cursor-pointer flex flex-row'>
-                <li>Home</li>
-                <li>How it works</li>
-                <li>Explore</li>
-                <li>Review</li>
-                <li>Blog</li>
-                <li>Contact</li>
+                    <li href="#" className='hover:text-red-700 text-neutral-700'>Home</li>
+                    <li href="#" className='hover:text-red-700 text-neutral-700'>How it works</li>
+                    <li href="#" className='hover:text-red-700 text-neutral-700'>Explore</li>
+                    <li href="#" className='hover:text-red-700 text-neutral-700'>Review</li>
+                    <li href="#" className='hover:text-red-700 text-neutral-700'>Blog</li>
+                    <li href="#" className='hover:text-red-700 text-neutral-700'>Contact</li>
               </ul>
             </div>
 
@@ -50,16 +50,8 @@ const Navbar = () => {
               </div>
             )}
 
-            
-
-            
-
-           
         </nav>
 
-
-          
-        
     </div>
   )
 }
