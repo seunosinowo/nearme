@@ -20,7 +20,7 @@ const Navbar = () => {
                     {isMobileView ? <X/> : <Menu/>}
                 </button>
               </div>
-
+      
             <h1 className='text-black py-5 lg:ms-9 ms-1 font-bold text-[1.5rem]'>Near
                 <span className='text-red-700'>Me</span>
               </h1> 
