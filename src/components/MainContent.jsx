@@ -7,7 +7,7 @@ import { CookingPot, LocateFixed, Hotel, Hospital, Car } from 'lucide-react'
 
 const MainContent = () => {
   return (
-    <div className='bg-cover h-[735px] w-full' style={{backgroundImage: `url(${sky})`}}>
+    <div className='bg-cover h-[735px] min-w-full' style={{backgroundImage: `url(${sky})`}}>
       <div className='flex items-center justify-center w-full'>
         <h1 className='uppercase text-white font-bold tracking-wide lg:text-5xl pt-40 lg:w-[900px] items-center justify-center text-2xl w-[450px]'>
             Best place to find and explore {""}
@@ -54,7 +54,7 @@ const MainContent = () => {
 
         {/* Boxes down */}
 
-        <div className='grid lg:grid-cols-5 md:grid-cols-3 grid-col-3 mt-48 mb-10 w-full justify-center items-center lg:max-w-[80%] sm:max-w-[30%] mx-auto gap-3'>
+        <div className='grid lg:grid-cols-5 md:grid-cols-3 grid-col-3 mt-48 mb-10 w-full justify-center items-center lg:max-w-[80%] mx-auto gap-3'>
 
         {/* <div className='flex flex-wrap mt-48 mb-10 w-full justify-center items-center sm:space-x-3 md:space-x-3 lg:space-x-5'> */}
           
