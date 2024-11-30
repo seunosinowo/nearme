@@ -3,13 +3,13 @@ import { Lightbulb, Target, Compass } from 'lucide-react'
 
 const Workflow = () => {
   return (
-    <div className='grid w-full justify-center mb-20'>
+    <div className='grid w-full justify-center mb-6'>
         <div className='lg:mt-48 mt-[50rem] space-y-8'>
             <h1 className='lg:text-3xl text-[1.5rem] text-neutral-600 uppercase w-full justify-center flex font-bold'>How it work</h1>
             <p className='text-neutral-500 flex justify-center'>Learn More about how our website works</p>
         </div>
 
-        <div className='mt-28 grid lg:grid-cols-3 grid-rows-3 gap-4'>
+        <div className='mt-28 grid lg:grid-cols-3 grid-rows-0 gap-4'>
           <div className='flex flex-col items-center justify-center bg-white shadow-2xl rounded-md min-h-96 w-[20rem] space-y-9 group hover:bg-red-600 group hover:text-white transition-opacity duration-1000
           '>
              
