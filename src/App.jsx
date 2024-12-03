@@ -1,3 +1,4 @@
+import Count from './components/Count'
 import Explore from './components/Explore'
 import MainContent from './components/MainContent'
 import Navbar from './components/Navbar'
@@ -14,6 +15,7 @@ function App() {
        <Workflow/>
        <Explore/>
        <Reviews/>
+       <Count/>
     </div>
   )
 }
