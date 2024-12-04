@@ -1,10 +1,15 @@
 import React from 'react'
 import zuma from '../assets/zuma.jpg'
-import { useEffect } from 'react'
+import { useState, useEffect } from 'react'
 
 const Count = () => {
+    const [Listings, setListings] = useState(0)
+
+    useEffect(() => {
+        
+    })
+
   return (
-    
     <div className='bg-cover lg:h-44 h-96 lg:pt-0 pt-6 bg-blend-overlay bg-red-800/80 mb-40' style={{backgroundImage: `url(${zuma})`}}>
         <div className='grid lg:grid-cols-4 w-full justify-center items-center lg:p-14'>
 
