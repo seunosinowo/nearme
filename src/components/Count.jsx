@@ -8,17 +8,27 @@ const Count = () => {
     const [visitors, setVisitors] = useState(1)
     const [clients, setClients] = useState(1)
 
-    useEffect(() => {
+   useEffect(() => {
         const interval = setInterval(() => {
-            if(listings < 150) {
+            if (listings < 150) {
                 setListings((prevCount) => prevCount + 1)
             } else {
                 clearInterval(interval)
             }
         }, [100])
-        
         return () => clearInterval(interval)
-    }, [listings])
+   }, [listings])
+
+
+
+
+
+
+
+
+
+
+
 
     useEffect(() => {
         const interval = setInterval(() => {
@@ -56,7 +66,7 @@ const Count = () => {
    
 
   return (
-    <div className='bg-cover lg:h-44 h-96 lg:pt-0 pt-6 bg-blend-overlay bg-red-800/80 mb-40' style={{backgroundImage: `url(${zuma})`}}>
+    <div className='bg-cover lg:h-44 h-96 lg:pt-0 pt-6 bg-blend-overlay bg-red-800/80 mb-20' style={{backgroundImage: `url(${zuma})`}}>
         <div className='grid lg:grid-cols-4 w-full justify-center items-center lg:p-14'>
 
             <div className='flex flex-col text-white justify-center'>
