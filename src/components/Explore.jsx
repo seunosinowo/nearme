@@ -17,7 +17,7 @@ const Explore = () => {
         {/* Each Section */}
 
         <div className='grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-10 mt-16 mx-16 mb-10'>
-            <div className='hover: group'>
+            <div className='hover: group '>
                 <img src={bar} alt='BarPlace' className='rounded-t-md' />
 
                 <div className='flex'>
@@ -52,7 +52,7 @@ const Explore = () => {
 
                 <div className='flex mt-4 px-7 pt-2'>
                     <img src={face} className='w-12 h-12 rounded-full'/>
-                    <p className='text-sm px-5 text-neutral-500'>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incid ut labore et dolore magna aliqua...</p>
+                    <p className='text-sm px-5 text-neutral-500'>Indulge in a sophisticated blend of style and substance at the Tommy Hilfiger Bar. This chic establishment offers more than just a drink; it's an experience.</p>
                 </div>
 
                 <div className='px-7 pt-7'>
@@ -118,7 +118,7 @@ const Explore = () => {
 
                 <div className='flex mt-4 px-7 pt-2'>
                     <img src={face} className='w-12 h-12 rounded-full'/>
-                    <p className='text-sm px-5 text-neutral-500'>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incid ut labore et dolore magna aliqua...</p>
+                    <p className='text-sm px-5 text-neutral-500'>Escape the ordinary and discover paradise at the Swim and Dine Resort. This idyllic retreat offers the ultimate luxury experience</p>
                 </div>
 
                 <div className='px-7 pt-7'>
@@ -184,7 +184,7 @@ const Explore = () => {
 
                 <div className='flex mt-4 px-7 pt-2'>
                     <img src={face} className='w-12 h-12 rounded-full'/>
-                    <p className='text-sm px-5 text-neutral-500'>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incid ut labore et dolore magna aliqua...</p>
+                    <p className='text-sm px-5 text-neutral-500'>Embark on an unforgettable journey through the heart of Europe.</p>
                 </div>
 
                 <div className='px-7 pt-7'>

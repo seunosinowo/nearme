@@ -16,7 +16,7 @@ const Reviews = () => {
      
     {/* Start */}
 
-    <div className='grid lg:grid-cols-3 w-full gap-8 justify-center'>
+    <div className='grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 w-full gap-8 justify-center'>
       
     
       <div className='bg-white shadow-lg w-[23rem] h-[20rem] mt-32'>

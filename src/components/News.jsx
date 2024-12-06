@@ -14,7 +14,7 @@ const News = () => {
         <div className='grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 grid-cols-1 p-7 gap-7 h-full'>
 
             {/* First One */}
-            <div className=' h-[520px] w-full max-w-md shadow-lg hover:shadow-2xl'>
+            <div className='h-[520px] w-full max-w-md shadow-lg hover:shadow-2xl'>
                 <img src={hiking} alt='hiking'/>
 
                 

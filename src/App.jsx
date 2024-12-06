@@ -1,5 +1,6 @@
 import Count from './components/Count'
 import Explore from './components/Explore'
+import Footer from './components/Footer'
 import MainContent from './components/MainContent'
 import Navbar from './components/Navbar'
 import News from './components/News'
@@ -18,6 +19,7 @@ function App() {
        <Reviews/>
        <Count/>
        <News/>
+       <Footer/>
     </div>
   )
 }
