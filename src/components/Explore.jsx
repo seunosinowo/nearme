@@ -16,7 +16,7 @@ const Explore = () => {
 
         {/* Each Section */}
 
-        <div className='grid lg:grid-cols-3 gap-10 mt-16 mx-16 mb-10'>
+        <div className='grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-10 mt-16 mx-16 mb-10'>
             <div className='hover: group'>
                 <img src={bar} alt='BarPlace' className='rounded-t-md' />
 

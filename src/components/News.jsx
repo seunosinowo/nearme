@@ -11,12 +11,13 @@ const News = () => {
             <p>Always upto date with our latest News and Artcles</p>
       </div>
 
-        <div className='grid lg:grid-cols-3 p-7 gap-7'>
+        <div className='grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 grid-cols-1 p-7 gap-7 h-full'>
 
             {/* First One */}
-            <div className=' h-[520px] shadow-lg hover:shadow-2xl'>
+            <div className=' h-[520px] w-full max-w-md shadow-lg hover:shadow-2xl'>
                 <img src={hiking} alt='hiking'/>
 
+                
                 <div className='px-5 pt-5 space-y-2'>
                     <h1 className='text-black text-[1.2rem] hover:text-red-500 cursor-pointer'>How to find your Desired Place Quickly</h1>
                     <div className='flex space-x-7'>
@@ -26,9 +27,12 @@ const News = () => {
                         <p>|</p>
                         <p className='text-neutral-500'>March 2045</p>
                     </div>
+                    <div>
                         <p className='text-neutral-500 text-[0.9rem] pt-5 text-justify'>
                             Explore a universe of possibilities, from local gems to global wonders, all tailored to your preferences. Your perfect adventure awaits. Discover the world, one click at a time.
                         </p>
+                    </div>
+                        
                 </div>
                 
 
@@ -38,7 +42,7 @@ const News = () => {
             {/***********/}
 
             {/* Second One */}
-            <div className=' h-[520px] shadow-lg hover:shadow-2xl'>
+            <div className=' h-[520px] w-full max-w-md shadow-lg hover:shadow-2xl'>
                 <img src={backpacker} alt='hiking'/>
 
                 <div className='px-5 pt-5 space-y-2'>
@@ -60,7 +64,7 @@ const News = () => {
             {/* End of 2nd */}
 
              {/* Third One */}
-             <div className=' h-[520px] shadow-lg hover:shadow-2xl'>
+             <div className=' h-[520px] w-full max-w-md shadow-lg hover:shadow-2xl'>
                 <img src={rear} alt='hiking'/>
 
                 <div className='px-5 pt-5 space-y-2'>

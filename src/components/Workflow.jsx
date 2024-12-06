@@ -9,7 +9,7 @@ const Workflow = () => {
             <p className='text-neutral-500 flex justify-center'>Learn More about how our website works</p>
         </div>
 
-        <div className='mt-28 grid lg:grid-cols-3 grid-rows-0 gap-4'>
+        <div className='mt-28 grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 grid-rows-0 gap-4'>
           <div className='flex flex-col items-center justify-center bg-white shadow-2xl rounded-md min-h-96 w-[20rem] space-y-9 group hover:bg-red-600 group hover:text-white transition-opacity duration-1000
           '>
              

@@ -20,16 +20,6 @@ const Count = () => {
    }, [listings])
 
 
-
-
-
-
-
-
-
-
-
-
     useEffect(() => {
         const interval = setInterval(() => {
             if (categories < 85) {
@@ -66,8 +56,8 @@ const Count = () => {
    
 
   return (
-    <div className='bg-cover lg:h-44 h-96 lg:pt-0 pt-6 bg-blend-overlay bg-red-800/80 mb-20' style={{backgroundImage: `url(${zuma})`}}>
-        <div className='grid lg:grid-cols-4 w-full justify-center items-center lg:p-14'>
+    <div className='bg-cover lg:h-44 md:h-[20rem] sm:h-[35rem] h-auto lg:pt-0 pt-6 bg-blend-overlay bg-red-800/80 mb-20 mx-auto lg:max-w-full max-w-5xl' style={{backgroundImage: `url(${zuma})`}}>
+        <div className='grid lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-1 grid-cols-0 w-full justify-center items-center lg:p-14 p-14 space-y-5 lg:space-y-0'>
 
             <div className='flex flex-col text-white justify-center'>
                 <h1 className='text-6xl'>{listings}k+</h1>
