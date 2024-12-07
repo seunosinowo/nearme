@@ -3,7 +3,7 @@ import { Lightbulb, Target, Compass } from 'lucide-react'
 
 const Workflow = () => {
   return (
-    <div className='grid w-full justify-center mb-6'>
+    <div className='grid w-full justify-center mb-6' id='works'>
         <div className='lg:mt-48 mt-[50rem] space-y-8'>
             <h1 className='lg:text-3xl text-[1.5rem] text-neutral-600 uppercase w-full justify-center flex font-bold'>How it work</h1>
             <p className='text-neutral-500 flex justify-center'>Learn More about how our website works</p>

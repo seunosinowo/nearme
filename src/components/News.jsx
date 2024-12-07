@@ -5,7 +5,7 @@ import rear from "../assets/rear.jpg"
 
 const News = () => {
   return (
-    <div className='mb-16 grid'>
+    <div className='mb-16 grid' id='blog'>
       <div className='grid w-full justify-center space-y-5 text-neutral-600 mb-16'>
             <h1 className='grid w-full justify-center uppercase lg:text-3xl text-[1.3rem] font-bold'>News and articles</h1>
             <p>Always upto date with our latest News and Artcles</p>

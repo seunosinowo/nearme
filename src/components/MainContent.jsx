@@ -7,7 +7,7 @@ import { CookingPot, LocateFixed, Hotel, Hospital, Car } from 'lucide-react'
 
 const MainContent = () => {
   return (
-    <div className='bg-cover h-[735px] min-w-full' style={{backgroundImage: `url(${sky})`}}>
+    <div className='bg-cover h-[735px] min-w-full' style={{backgroundImage: `url(${sky})`}} id='top'>
       <div className='flex items-center justify-center w-full'>
         <h1 className='uppercase text-white font-bold tracking-wide lg:text-5xl pt-40 lg:w-[900px] items-center justify-center text-2xl w-[450px]'>
             Best place to find and explore {""}

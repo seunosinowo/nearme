@@ -8,7 +8,7 @@ import { MapPin, Download, Heart, Fullscreen, ArrowDownToLine } from 'lucide-rea
 
 const Explore = () => {
   return (
-    <div className='grid w-full justify-center min-h-[30rem] bg-slate-100 mt-32 mb-24'>
+    <div className='grid w-full justify-center min-h-[30rem] bg-slate-100 mt-32 mb-24' id='explore'>
         <div className='mt-16 space-y-5 text-neutral-600'>
             <h1 className='grid text-3xl uppercase justify-center w-full font-bold'>Expore</h1>
             <p className='lg:text-[1.2rem] text-[1rem] text-center'>Explore New place, food, culture around the world and many more</p>

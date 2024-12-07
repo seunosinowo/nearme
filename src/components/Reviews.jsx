@@ -6,7 +6,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 
 const Reviews = () => {
   return (
-    <div className='grid mb-20 p-5 justify-center items-center'>
+    <div className='grid mb-20 p-5 justify-center items-center' id='reviews'>
         
       <div className='grid w-full justify-center text-neutral-600'>
             <h2 className='text-3xl uppercase'>Clients Reviews</h2>
