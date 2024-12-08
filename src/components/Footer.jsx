@@ -29,14 +29,16 @@ const Footer = () => {
 
             <div className='uppercase text-[0.93rem] pt-8 mx-7 lg:mx-0'>
               <ul className='text-black space-x-6 cursor-pointer flex flex-row'>
-                    <li href="#" className='hover:text-red-700 text-neutral-700'>Home</li>
-                    <li href="#" className='hover:text-red-700 text-neutral-700'>How it works</li>
-                    <li href="#" className='hover:text-red-700 text-neutral-700'>Explore</li>
-                    <li href="#" className='hover:text-red-700 text-neutral-700'>Review</li>
-                    <li href="#" className='hover:text-red-700 text-neutral-700'>Blog</li>
-                    <li href="#" className='hover:text-red-700 text-neutral-700'>Contact</li>
+                    <li><a href="#top" className='hover:text-red-700 text-neutral-700'>Home</a></li>
+                    <li><a href="#works" className='hover:text-red-700 text-neutral-700'>How it works</a></li>
+                    <li><a href="#explore" className='hover:text-red-700 text-neutral-700'>Explore</a></li>
+                    <li><a href="#reviews" className='hover:text-red-700 text-neutral-700'>Review</a></li>
+                    <li><a href="#blog" className='hover:text-red-700 text-neutral-700'>Blog</a></li>
+                    <li><a href="#" className='hover:text-red-700 text-neutral-700'>Contact</a></li>
               </ul>
             </div>
+
+          
 
         </div>
     </div>

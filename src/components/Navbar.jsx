@@ -40,12 +40,12 @@ const Navbar = () => {
             {isMobileView && (
               <div className='fixed left-0 z-20 bg-white w-full p-2 mt-14 flex flex-col lg:hidden pt-5 pb-9'>
                 <ul className='uppercase space-y-5 text-[0.9rem] text-neutral-800 cursor-pointer '>
-                    <li href="#" className='text-red-800'>Home</li>
-                    <li href="#" className='hover:text-red-800'>How it works</li>
-                    <li href="#" className='hover:text-red-800'>Explore</li>
-                    <li href="#" className='hover:text-red-800'>Review</li>
-                    <li href="#" className='hover:text-red-800'>Blog</li>
-                    <li href="#" className='hover:text-red-800'>Contact</li>
+                    <li><a href="#top" className='text-red-800'>Home</a></li>
+                    <li><a href="#works" className='hover:text-red-800'>How it works</a></li>
+                    <li><a href="#explore" className='hover:text-red-800'>Explore</a></li>
+                    <li><a href="#reviews" className='hover:text-red-800'>Review</a></li>
+                    <li><a href="#blog" className='hover:text-red-800'>Blog</a></li>
+                    <li><a href="#" className='hover:text-red-800'>Contact</a></li>
                 </ul>
               </div>
             )}
